@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box {
+    display: inline-block;
+    border: 10px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 1000px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#input {
+    border: 10px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+    width: 800px;
+}
+
+#add {
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 30px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#list {
+    border: 15px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-top: 50px;
+    align-items: stretch;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.delete {
+    background-color: darkred;
+    color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+}
+
+
+#listElement {
+    color: white;
+    font-size: 40px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
